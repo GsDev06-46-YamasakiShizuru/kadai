@@ -1,12 +1,11 @@
 @charset "utf-8";
 
-body{
-    font-family:Quicksand, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-}
+
 
 .form-outer{
 	max-width:640px;
 	margin:0 auto;
+    font-family:Quicksand, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 	
 }
 
@@ -20,7 +19,7 @@ body{
 
 .form-title{
 	box-sizing: border-box;
-	width:240px;
+	width:500px;
 	padding:8px 64px 8px 16px;
 /*	border-bottom:solid 1px #cacaca;*/
 }
@@ -78,6 +77,8 @@ body{
 }
 
 .btn-submit{
+    position: absolute;
+    right: 40%;
 	display: inline-block;
 	padding: .75em 4em;
 	border: 2px solid #333;
@@ -85,5 +86,7 @@ body{
 	color: #333;
 	text-decoration: none;
 	text-align: center;
+   
     
 }
+
