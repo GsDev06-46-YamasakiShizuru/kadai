@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+.table_title{
+width: 100%;
+border-collapse: collapse;
+}
+.table_title th{
+width: 25%;
+text-align: left;
+vertical-align: middle;
+color: #333;
+background-color: #eee;
+border: 1px solid #b9b9b9;
+}
+.table_title td{
+background-color: #fff;
+border: 1px solid #b9b9b9;
+}
