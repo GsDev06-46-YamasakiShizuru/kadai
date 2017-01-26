@@ -11,7 +11,7 @@ $detail=$_POST["detail"];
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="style_output.css">
 <title>File書き込み</title>
 </head>
 <body>

@@ -6,7 +6,7 @@
 </head>
 <body>
 <!--<form action="get_confirm.php" method="get" class="form-outer">-->
-<form action="write_test.php" method="post" class="form-outer">
+<form action="output_data.php" method="post" class="form-outer">
 <!--<form action="write.php" method="post">-->
 <!--
 	お名前: <input type="text" name="name">
