@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+
+
+.form-outer{
+	max-width:640px;
+	margin:0 auto;
+    font-family:Quicksand, 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+/*	background-color: red;*/
+}
+
+
+.form-list{
+	display:flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+	border-top:solid 2px #cacaca;
+}
+
+.form-title{
+	box-sizing: border-box;
+	width:500px;
+	padding:8px 64px 8px 16px;
+/*	border-bottom:solid 1px #cacaca;*/
+}
+
+.form-detail{
+	box-sizing: border-box;
+	width:400px;
+	padding: 8px;
+/*
+	border-left:solid 1px #cacaca;
+	border-bottom:solid 1px #cacaca;
+*/
+
+}
+.form-detail li{
+	margin-bottom: 24px;
+	text-indent: -1.5em;
+	padding-left: 1.5em;
+}
+.form-detail li:last-of-type{
+	margin-bottom: 0;
+}
+.form-parts{
+	width:326px;
+	display: inline-block;
+	padding: .75em 4em;
+	border: 2px solid #333;
+	border-radius: 3em .5em 2em .5em/.4em 2em .5em 3em;
+	color: #333;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1rem;
+	
+}
+
+.form-parts__radio{
+	width:16px;
+	height:16px;
+	margin-right: 10px;
+	margin-bottom: 4px;
+	padding: 0;
+	border-radius: 4px;
+	background:#fafafa;
+}
+
+.form-parts__textarea{
+	width:100%;
+    display: inline-block;
+	padding: .75em 4em;
+	border: 2px solid #333;
+	border-radius: 3em .5em 2em .5em/.4em 2em .5em 3em;
+	color: #333;
+	text-decoration: none;
+	text-align: center;
+}
+
+.btn-submit{
+    position: absolute;
+    right: 40%;
+	display: inline-block;
+	padding: .75em 4em;
+	border: 2px solid #333;
+	border-radius: 3em .5em 2em .5em/.4em 2em .5em 3em;
+	color: #333;
+	text-decoration: none;
+	text-align: center;
+   
+    
+}
+
